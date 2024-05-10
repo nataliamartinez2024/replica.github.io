@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather&display=swap');
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+nav ol {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+ol a {
+    padding: 16px;
+    text-decoration: none;
+}
+nav img{
+    width: 220px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+nav a{
+    font-size: 20px;
+   
+    color: black;
+}
+ol a:hover{
+    text-decoration: underline;
+}
+.menu a:hover{
+background-color: rgb(255, 255, 255);
+}
+body{
+    background-color:pink;
+}
+.contenedor{
+    display: flex;
+}
+.columna-1{
+    width: 50%;
+    padding: 20px;
+}
+.columna-2{
+    width: 50%;
+    padding: 20px;
+}
+h1 {
+    font-family: "Lora", serif;
+}
+.subtitulo{
+    text-decoration: underline;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+}
+.tarjeta{
+    padding: 20px;
+}
+.tarjeta img {
+    width: 350px;
+}
+.Subtitulo{
+    text-decoration: underline;
+    display: flex;
+}
+.segundo-nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    margin: 0;
+}
+.nav-inferior{
+    display: block ;
+    background-color: rgb(192, 58, 58);
+}
+.redes{
+    display: flex;
+}
+.redes-listas{
+    margin: 10px;
+}
+.columna-3{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.tercer-nav{
+    list-style: none;
+}
+.segundo-nav a:hover{
+background-color: white;
+}
+.contenedor-2{
+    display: flex;
+}
+.contenedor-a{
+    width: 50%;
+    padding: 40px;
+}
+.compresion{
+    width: 400px;
+}
+.contenedor-b{
+ padding-top: 100px;
+ position: relative;
+}
+.vertical{
+    position: absolute;
+    transform: rotateZ(270deg);
+    left: -150px;
+    top: 350px;
+}
+.tag{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
